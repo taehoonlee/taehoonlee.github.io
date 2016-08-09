@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Taehoon Lee</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+<h1>Taehoon Lee</h1>
+<h2>machine learning researcher</h2>
+<ul class="icons">
+	<li><a href="https://taehoonlee.me" class="icon fa-list-alt alt" target="_blank"><span class="label">Twitter</span></a></li>
+	<li><a href="https://github.com/taehoonlee" class="icon fa-github-alt alt" target="_blank"><span class="label">GitHub</span></a></li>
+	<li><a href="https://www.linkedin.com/in/taehoonleeml" class="icon fa-linkedin alt" target="_blank"><span class="label">LinkedIn</span></a></li>
+	<li><a href="https://www.facebook.com/taehoonleeml" class="icon fa-facebook alt" target="_blank"><span class="label">Facebook</span></a></li>
+	<li><a href="mailto:me@taehoonlee.com" class="icon fa-envelope-o alt"><span class="label">Email</span></a></li>
+</ul>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#about" class="active">About</a></li>
+							<li><a href="#publications">Publications</a></li>
+							<li><a href="#projects">Projects</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="about" class="main">
+								<div class="spotlight">
+									<div class="content">
+										{% include about.html %}
+									</div>
+								</div>
+								<div class="content">
+									<header class="major"><h2>Skills</h2></header>
+									{% include skills.html %}
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="publications" class="main special">
+								<header class="major">
+									<h2>Recent Publications</h2>
+								</header>
+								{% include publications.html %}
+							</section>
+
+						<!-- Second Section -->
+							<section id="projects" class="main special">
+								<header class="major">
+									<h2>Recent Projects</h2>
+								</header>
+								{% include projects.html %}
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; 2016 <a href="mailto:me@taehoonlee.com">Taehoon Lee</a><br />Design: <a href="https://html5up.net">HTML5 UP</a></p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
