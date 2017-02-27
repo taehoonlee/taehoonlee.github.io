@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400";
+@import "https://fonts.googleapis.com/css?family=Raleway";
 
 /*
 	Stellar by HTML5 UP
@@ -1624,10 +1625,10 @@
 
 	body {
 		background-color: #000; /* #935d8c */
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #000 15%, #393939 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #000 15%, #393939 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #000 15%, #393939 85%); /* #e37682 15%, #5f4d93 85% */
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #000 15%, #393939 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #222 15%, #000 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #222 15%, #000 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #222 15%, #000 85%); /* #e37682 15%, #5f4d93 85% */
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #222 15%, #000 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -2936,23 +2937,23 @@
 		}
 
 			.statistics li.style1 {
-				background-color: #6ec1a5; /* #efa8b0 */
+				background-color: #0cadbb; /* #efa8b0 */
 			}
 
 			.statistics li.style2 {
-				background-color: #F67280; /* #c79cc8 */
+				background-color: #49b0b9; /* #c79cc8 */
 			}
 
 			.statistics li.style3 {
-				background-color: #C06C84; /* #a89cc8 */
+				background-color: #3fb894; /* #a89cc8 */
 			}
 
 			.statistics li.style4 {
-				background-color: #6C5B7B; /* #9bb2e1 */
+				background-color: #8fbf73; /* #9bb2e1 */
 			}
 
 			.statistics li.style5 {
-				background-color: #fb7878; /* #8cc9f0 */
+				background-color: #febf3d; /* #8cc9f0 */
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3135,7 +3136,12 @@
 		}
 
 			#header.alt h1 {
+				font-family: 'Raleway';
 				font-size: 3.25em;
+			}
+
+			#header.alt h2 {
+				font-style: italic;
 			}
 
 			#header.alt > * {
@@ -3586,10 +3592,10 @@
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #F67280, #C06C84, #6C5B7B); /* #efa8b0, #a89cc8, #8cc9f0 */
-			background-image: -webkit-linear-gradient(90deg, #F67280, #C06C84, #6C5B7B);
-			background-image: -ms-linear-gradient(90deg, #F67280, #C06C84, #6C5B7B);
-			background-image: linear-gradient(90deg, #F67280, #C06C84, #6C5B7B);
+			background-image: -moz-linear-gradient(90deg, #43bb97, #d0c16a, #febf3d); /* #efa8b0, #a89cc8, #8cc9f0 */
+			background-image: -webkit-linear-gradient(90deg, #43bb97, #d0c16a, #febf3d);
+			background-image: -ms-linear-gradient(90deg, #43bb97, #d0c16a, #febf3d);
+			background-image: linear-gradient(90deg, #43bb97, #d0c16a, #febf3d);
 		}
 
 		#main table tbody tr {
