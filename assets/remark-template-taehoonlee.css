@@ -89,9 +89,6 @@ h1 { margin: 36px 0px -8px 0px; }
 .toptight * { display: inline-block; vertical-align: middle; }
 .tight { margin: -20px 0; }
 
-.w3 { width: 3%; }
-.w8 { width: 8%; }
-.w16 { width: 16%; }
 img[alt=w10] { width: 10%; }
 img[alt=w15] { width: 15%; }
 img[alt=w20] { width: 20%; }
@@ -257,8 +254,6 @@ a[href^="https://"]:hover {
 .disappointed_relieved { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f625.png?v7'); }
 .fearful { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f628.png?v7'); }
 .smile { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png?v7'); }
-.cat { background-image: url('images/cat.png'); }
-.dog { background-image: url('images/dog.png'); }
 
 
 /* Box */
