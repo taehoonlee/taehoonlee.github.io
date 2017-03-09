@@ -1,0 +1,337 @@
+/*******************************************************
+ *
+ * Remarkjs Template (https://remarkjs.com/)
+ *
+ * Written by Taehoon Lee (@taehoonlee), March 2017
+ *
+ *******************************************************/
+
+@import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=PT+Mono);
+
+
+/* Font */
+
+body {
+  font-family: 'Noto Sans KR', 'Noto Sans';
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway';
+}
+
+.remark-code, .remark-inline-code {
+  font-family: 'PT Mono';
+}
+
+
+/* Layout */
+
+* { line-height: 140%; }
+
+h1 { margin: 36px 0px -8px 0px; }
+
+.remark-slide-content:before {
+  content: "";
+  position: absolute;
+  top: 5%;
+  left: 6%;
+  height: 6px;
+  width: 48%;
+  background: #05a4c9;
+  background: -webkit-linear-gradient(left, #05a4c9, #23b4aa);
+  background: -o-linear-gradient(right, #05a4c9, #23b4aa);
+  background: -moz-linear-gradient(right, #05a4c9, #23b4aa);
+  background: linear-gradient(to right, #05a4c9, #23b4aa);
+}
+
+.remark-slide-content:after {
+  content: "";
+  position: absolute;
+  bottom: 9%;
+  right: 6%;
+  height: 1px;
+  width: 88%;
+  background-color: #c0c0c0;
+}
+
+.remark-slide-number {
+  bottom: 3%;
+  color: #a6a6a6;
+  font-size: 0.84em;
+  position: absolute;
+  right: 6%;
+}
+
+.noframe:before,
+.noframe:after,
+.noframe .remark-slide-number {
+  display: none;
+}
+
+.pull-left {
+  float: left;
+  width: 62%;
+}
+
+.pull-right {
+  float: right;
+  width: 32%;
+}
+
+.center { margin: 0 auto; }
+.middle * { vertical-align: middle; }
+
+.toptight { margin: -10px 0 -40px 0; }
+.toptight * { display: inline-block; vertical-align: middle; }
+.tight { margin: -20px 0; }
+
+.w3 { width: 3%; }
+.w8 { width: 8%; }
+.w16 { width: 16%; }
+img[alt=w10] { width: 10%; }
+img[alt=w15] { width: 15%; }
+img[alt=w20] { width: 20%; }
+img[alt=w25] { width: 25%; }
+img[alt=w30] { width: 30%; }
+img[alt=w35] { width: 35%; }
+img[alt=w40] { width: 40%; }
+img[alt=w45] { width: 45%; }
+img[alt=w50] { width: 50%; }
+img[alt=w55] { width: 55%; }
+img[alt=w60] { width: 60%; }
+img[alt=w65] { width: 65%; }
+img[alt=w70] { width: 70%; }
+img[alt=w75] { width: 75%; }
+img[alt=w80] { width: 80%; }
+img[alt=w85] { width: 85%; }
+img[alt=w90] { width: 90%; }
+img[alt=w95] { width: 95%; }
+img[alt=w100] { width: 100%; }
+
+img[alt=h180] { height: 180px; }
+
+
+/* Color and Size */
+
+.c0 { color: #72a2dc; } /* these are chosen from the parula(8) function in MATLAB. */
+.c1 { color: #0cadbb; }
+.c2 { color: #43bb97; }
+.c3 { color: #8fbf73; }
+.c4 { color: #d0c16a; }
+.c5 { color: #febf3d; }
+.c6 { color: #ffd200; }
+.gray { color: #ccc; }
+
+.remark-code-line-highlighted { background-color: #e3dcc0; }
+.hljs-paraiso-light .hljs-comment { color: #ef6155; }
+
+.remark-slide-content h1 { font-size: 2.3em; }
+.remark-slide-content h2 { font-size: 1.55em; }
+.remark-slide-content h3 { font-size: 1.4em; }
+
+.remark-slide-content p,
+.remark-slide-content ol,
+.remark-slide-content ul { font-size: 1.6em; color: #222; }
+
+.remark-slide-content ul li ul { font-size: 1.0em; color: #333; }
+
+.medium { font-size: 0.86em; }
+.small { font-size: 0.72em; }
+.tiny { font-size: 0.56em; }
+.Tiny { font-size: 0.46em; }
+
+a {
+  text-decoration: none;
+}
+
+a[href^="http://"],
+a[href^="https://"] {
+  color: #666;
+}
+
+a[href^="http://"]:hover,
+a[href^="https://"]:hover {
+  border-bottom: 1px dotted #666;
+}
+
+.remark-slide-content ul li {
+  list-style-type: circle;
+}
+
+.remark-slide-content ul li ul li {
+  list-style-type: none;
+  margin-left: -36px;
+}
+
+.remark-slide-content ul li ul li:before {
+  content: "•"; /* Insert content that looks like bullets */
+  padding-right: 16px;
+}
+
+.remark-code {
+  font-size: 1.0em;
+  line-height: 80%;
+}
+
+.remark-inline-code {
+  background-color: #eee;
+  padding: 3px;
+}
+
+
+/* Table */
+
+.remark-slide-content table { font-size: 1.4em; margin: auto; }
+.remark-slide-content th,
+.remark-slide-content td { padding: 4px 26px; }
+.remark-slide-content thead { background-color: #CCC; }
+.remark-slide-content thead th { color: #333; font-weight: normal; text-align: left; }
+.remark-slide-content tbody th,
+.remark-slide-content tbody td { border-bottom: 1px solid #DDD; }
+
+.dense table { font-size: 0.86em; margin: auto; margin-top: 36px; }
+.dense th,
+.dense td { padding: 8px 20px; }
+
+.headcenter thead th { text-align: center; }
+.bodycenter tbody th,
+.bodycenter tbody td { text-align: center; }
+.cellcenter thead th,
+.cellcenter tbody th,
+.cellcenter tbody td { text-align: center; }
+
+.c0 { color: #72a2dc; }
+.c1 { color: #0cadbb; }
+.c2 { color: #43bb97; }
+.c3 { color: #8fbf73; }
+.c4 { color: #d0c16a; }
+.c5 { color: #febf3d; }
+.c6 { color: #ffd200; }
+
+.headc0 thead th { background-color: #72a2dc; color: #fff; font-weight: normal; }
+.headc1 thead th { background-color: #0cadbb; color: #fff; font-weight: normal; }
+.headc2 thead th { background-color: #43bb97; color: #fff; font-weight: normal; }
+.headc3 thead th { background-color: #8fbf73; color: #fff; font-weight: normal; }
+.headc4 thead th { background-color: #d0c16a; color: #fff; font-weight: normal; }
+.headc5 thead th { background-color: #febf3d; color: #fff; font-weight: normal; }
+.headc6 thead th { background-color: #ffd200; color: #fff; font-weight: normal; }
+
+.headgradients thead th:nth-child(1) { background-color: #72a2dc; color: #fff; font-weight: normal; }
+.headgradients thead th:nth-child(2) { background-color: #0cadbb; color: #fff; font-weight: normal; }
+.headgradients thead th:nth-child(3) { background-color: #43bb97; color: #fff; font-weight: normal; }
+.headgradients thead th:nth-child(4) { background-color: #8fbf73; color: #fff; font-weight: normal; }
+.headgradients thead th:nth-child(5) { background-color: #d0c16a; color: #fff; font-weight: normal; }
+.headgradients thead th:nth-child(6) { background-color: #febf3d; color: #fff; font-weight: normal; }
+.headgradients thead th:nth-child(7) { background-color: #ffd200; color: #fff; font-weight: normal; }
+
+.bodystripes tbody th,
+.bodystripes tbody td { border: 0; }
+.bodystripes tbody tr:nth-child(odd) td { background-color: #ddd; }
+.bodystripes tbody tr:nth-child(even) td { background-color: #eee; }
+
+
+/* Title Page */
+
+.title { background: #000; }
+.title h1 { color: #fff; font-size: 2.8em; }
+.title h3 { font-family: 'Noto Sans KR', 'Noto Sans'; font-weight: normal; }
+.title h2 { color: #43bb97; font-size: 1.6em; margin: 3% 0 0 0; }
+.title h3 { color: #ddd; font-size: 1.2em; font-style: italic; margin: 2% 0 0 0; }
+.title h4 { font-size: 1.4em; position: absolute; width: 20%; bottom: 5%; left: 40%; margin: 0; letter-spacing: 0.1em; }
+.title h4 a { color: #eee; }
+.title h4 a:hover { color: #43bb97; border-bottom: 0; }
+
+
+/* https://api.github.com/emojis */
+/* https://github.com/scotch-io/All-Github-Emoji-Icons */
+
+.emoji { width: 1.0em; height: 1.0em; background-size: 1.0em 1.0em; display: inline-block; vertical-align: middle; }
+.blush { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f60a.png?v7'); }
+.confused { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f615.png?v7'); }
+.exclamation { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/2757.png?v7'); }
+.no_mouth { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f636.png?v7'); }
+.disappointed_relieved { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f625.png?v7'); }
+.fearful { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f628.png?v7'); }
+.smile { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png?v7'); }
+.cat { background-image: url('images/cat.png'); }
+.dog { background-image: url('images/dog.png'); }
+
+
+/* Box */
+
+.cite {
+  font-size: 0.4em;
+  color: #aaa;
+  font-style: italic;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+}
+
+.citecenter {
+  font-size: 0.4em;
+  color: #aaa;
+  font-style: italic;
+  margin: -26px auto auto auto;
+  text-align: center;
+  display: block;
+}
+
+.citeright {
+  font-size: 0.4em;
+  color: #aaa;
+  font-style: italic;
+  margin: -30px 0 30px 0;
+  text-align: right;
+  float: right;
+  width: 100%;
+}
+
+.box {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  padding: 20px 30px;
+  background-color: #f2f2f2;
+  font-size: 0.8em;
+  margin: auto;
+  display: table; 
+  font-family: 'Raleway';
+  font-style: italic;
+}
+
+.smallbox {
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  border-radius: 24px;
+  padding: 12px 48px;
+  background-color: #f2f2f2;
+  font-size: 0.72em;
+  margin: auto;
+  display: table; 
+  font-family: 'Raleway';
+  font-style: italic;
+}
+
+
+/* Print */
+
+@page {
+  size: 1216px 684px;
+  /*size: 1200px 675px;*/
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}
