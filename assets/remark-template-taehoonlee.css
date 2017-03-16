@@ -201,14 +201,6 @@ a[href^="https://"]:hover {
 .cellcenter tbody th,
 .cellcenter tbody td { text-align: center; }
 
-.c0 { color: #72a2dc; }
-.c1 { color: #0cadbb; }
-.c2 { color: #43bb97; }
-.c3 { color: #8fbf73; }
-.c4 { color: #d0c16a; }
-.c5 { color: #febf3d; }
-.c6 { color: #ffd200; }
-
 .headc0 thead th { background-color: #72a2dc; color: #fff; font-weight: normal; }
 .headc1 thead th { background-color: #0cadbb; color: #fff; font-weight: normal; }
 .headc2 thead th { background-color: #43bb97; color: #fff; font-weight: normal; }
