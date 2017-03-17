@@ -10,6 +10,9 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=PT+Mono);
+@import url(https://taehoonlee.github.io/assets/github-emojis.css); /* adapted from https://api.github.com/emojis, refer to https://github.com/scotch-io/All-Github-Emoji-Icons */
+.emoji { width: 1.0em; height: 1.0em; background-size: 1.0em 1.0em; display: inline-block; vertical-align: middle; }
+
 
 
 /* Font */
@@ -123,6 +126,15 @@ img[alt=h180] { height: 180px; }
 .c6 { color: #ffd200; }
 .gray { color: #ccc; }
 
+.bc0 { background-color: #c0d3eb; }
+.bc1 { background-color: #b4d8db; }
+.bc2 { background-color: #b4dbcf; }
+.bc3 { background-color: #c2dbb4; }
+.bc4 { background-color: #ebd5c0; }
+.bc5 { background-color: #f5e6c9; }
+.bc6 { background-color: #f5edc9; }
+.bgray { background-color: #ccc; }
+
 .remark-code-line-highlighted { background-color: #e3dcc0; }
 .hljs-paraiso-light .hljs-comment { color: #ef6155; }
 
@@ -233,19 +245,6 @@ a[href^="https://"]:hover {
 .title h4 { font-size: 1.4em; position: absolute; width: 20%; bottom: 5%; left: 40%; margin: 0; letter-spacing: 0.1em; }
 .title h4 a { color: #eee; }
 .title h4 a:hover { color: #43bb97; border-bottom: 0; }
-
-
-/* https://api.github.com/emojis */
-/* https://github.com/scotch-io/All-Github-Emoji-Icons */
-
-.emoji { width: 1.0em; height: 1.0em; background-size: 1.0em 1.0em; display: inline-block; vertical-align: middle; }
-.blush { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f60a.png?v7'); }
-.confused { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f615.png?v7'); }
-.exclamation { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/2757.png?v7'); }
-.no_mouth { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f636.png?v7'); }
-.disappointed_relieved { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f625.png?v7'); }
-.fearful { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f628.png?v7'); }
-.smile { background-image: url('https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png?v7'); }
 
 
 /* Box */
