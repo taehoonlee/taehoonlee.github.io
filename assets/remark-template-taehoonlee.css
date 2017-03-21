@@ -88,7 +88,7 @@ h1 { margin: 36px 0px -8px 0px; }
 .center { margin: 0 auto; }
 .middle * { vertical-align: middle; }
 
-.toptight { margin: -10px 0 -40px 0; }
+.toptight { margin-top: -15px; }
 .toptight * { display: inline-block; vertical-align: middle; }
 .tight { margin: -20px 0; }
 
