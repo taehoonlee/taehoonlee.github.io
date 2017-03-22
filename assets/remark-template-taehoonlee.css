@@ -186,6 +186,11 @@ a[href^="https://"]:hover {
   border-bottom: 1px dotted #666;
 }
 
+.cite a {
+  color: #aaa;
+  font-style: italic;
+}
+
 .remark-slide-content ul li {
   list-style-type: circle;
 }
@@ -231,6 +236,7 @@ a[href^="https://"]:hover {
 .cellcenter thead th,
 .cellcenter tbody th,
 .cellcenter tbody td { text-align: center; }
+.bottomcomment tr:last-child td { border-bottom: 0px; font-size: 0.8em; text-align: right; }
 
 .headc0 thead th { background-color: #72a2dc; color: #fff; font-weight: normal; }
 .headc1 thead th { background-color: #0cadbb; color: #fff; font-weight: normal; }
@@ -268,14 +274,7 @@ a[href^="https://"]:hover {
 
 /* Box */
 
-.cite {
-  font-size: 0.4em;
-  color: #aaa;
-  font-style: italic;
-  margin: 0 auto;
-  display: block;
-  text-align: right;
-}
+.cite { color: #aaa; font-style: italic; }
 
 .citecenter {
   font-size: 0.4em;
