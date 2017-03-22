@@ -274,8 +274,6 @@ a[href^="https://"]:hover {
 
 /* Box */
 
-.cite { color: #aaa; font-style: italic; }
-
 .citecenter {
   font-size: 0.4em;
   color: #aaa;
