@@ -303,7 +303,8 @@ a[href^="https://"]:hover {
   padding: 20px 30px;
   background-color: #f2f2f2;
   font-size: 0.8em;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   display: table; 
   font-family: 'Raleway';
   font-style: italic;
@@ -316,7 +317,8 @@ a[href^="https://"]:hover {
   padding: 12px 48px;
   background-color: #f2f2f2;
   font-size: 0.72em;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   display: table; 
   font-family: 'Raleway';
   font-style: italic;
