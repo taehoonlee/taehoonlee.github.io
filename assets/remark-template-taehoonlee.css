@@ -82,7 +82,7 @@ h1 { margin: 36px 0px -8px 0px; }
 
 .pull-right {
   float: right;
-  width: 32%;
+  width: 36%;
 }
 
 .center { margin: 0 auto; }
@@ -91,6 +91,7 @@ h1 { margin: 36px 0px -8px 0px; }
 .toptight { margin-top: -15px; }
 .toptight * { display: inline-block; vertical-align: middle; }
 .tight { margin: -20px 0; }
+.tight40 { margin-top: -40px; }
 
 img[alt=w10] { width: 10%; }
 img[alt=w15] { width: 15%; }
@@ -113,6 +114,24 @@ img[alt=w95] { width: 95%; }
 img[alt=w100] { width: 100%; }
 
 img[alt=h180] { height: 180px; }
+
+.w3 { width: 3%; }
+.w8 { width: 8%; }
+.w16 { width: 16%; }
+.w36 { width: 36%; }
+.w46 { width: 46%; }
+.w52 { width: 52%; }
+.w62 { width: 62%; }
+.w10 { width: 10%; }
+.w20 { width: 20%; }
+.w30 { width: 30%; }
+.w40 { width: 40%; }
+.w50 { width: 50%; }
+.w60 { width: 60%; }
+.w70 { width: 70%; }
+.w80 { width: 80%; }
+.w90 { width: 90%; }
+.w100 { width: 100%; }
 
 
 /* Color and Size */
