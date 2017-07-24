@@ -3725,8 +3725,8 @@
 
 		}
 
-#github-graph svg { transform:scale(1.2); -webkit-transform:scale(1.2); -moz-transform:scale(1.2); -ms-transform:scale(1.2); -o-transform:scale(1.2); }
-#github-graph { font-size: 0.6em; }
+#github-graph svg { transform:scale(1.25); -webkit-transform:scale(1.25); -moz-transform:scale(1.25); -ms-transform:scale(1.25); -o-transform:scale(1.25); }
+#github-graph { font-size: 0.65em; }
 
 /* Footer */
 
