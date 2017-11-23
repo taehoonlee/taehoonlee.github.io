@@ -274,7 +274,15 @@ a[href^="https://"]:hover {
 .title { background: #000; }
 .title h1 { color: #fff; font-size: 2.8em; }
 .title h3 { font-family: 'Noto Sans KR', 'Noto Sans'; font-weight: normal; }
-.title h2 { color: #43bb97; font-size: 1.6em; margin: 3% 0 0 0; }
+.title h2 { font-size: 1.6em; margin: 3% 0 0 0;
+    display: inline-block; /* http://jsbin.com/jilicawoni/edit?html,css,output */
+    background-image: linear-gradient(180deg, #0cadbb 0%, #43bb97 100%);
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
 .title h3 { color: #ddd; font-size: 1.2em; font-style: italic; margin: 2% 0 0 0; }
 .title h4 { font-size: 1.4em; position: absolute; width: 20%; bottom: 5%; left: 40%; margin: 0; letter-spacing: 0.1em; }
 .title h4 a { color: #eee; }
