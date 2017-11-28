@@ -113,6 +113,26 @@ img[alt=w90] { width: 90%; }
 img[alt=w95] { width: 95%; }
 img[alt=w100] { width: 100%; }
 
+img[alt=ww10] { width: 10px; }
+img[alt=ww15] { width: 15px; }
+img[alt=ww20] { width: 20px; }
+img[alt=ww25] { width: 25px; }
+img[alt=ww30] { width: 30px; }
+img[alt=ww35] { width: 35px; }
+img[alt=ww40] { width: 40px; }
+img[alt=ww45] { width: 45px; }
+img[alt=ww50] { width: 50px; }
+img[alt=ww55] { width: 55px; }
+img[alt=ww60] { width: 60px; }
+img[alt=ww65] { width: 65px; }
+img[alt=ww70] { width: 70px; }
+img[alt=ww75] { width: 75px; }
+img[alt=ww80] { width: 80px; }
+img[alt=ww85] { width: 85px; }
+img[alt=ww90] { width: 90px; }
+img[alt=ww95] { width: 95px; }
+img[alt=ww100] { width: 100px; }
+
 img[alt=h180] { height: 180px; }
 
 .w3 { width: 3%; }
