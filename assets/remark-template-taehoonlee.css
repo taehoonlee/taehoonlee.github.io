@@ -162,6 +162,8 @@ img[alt=h180] { height: 180px; }
 .w95 { width: 95%; }
 .w100 { width: 100%; }
 
+.hide { display: none; }
+
 
 /* Color and Size */
 
@@ -374,5 +376,10 @@ a[href^="https://"]:hover {
     transform: scale(1) !important;
     top: 0 !important;
     left: 0 !important;
+  }
+  .title h2 {
+    background: none;
+    -webkit-text-fill-color: #43bb97;
+    text-fill-color: #43bb97;
   }
 }
