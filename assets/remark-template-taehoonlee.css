@@ -26,8 +26,22 @@ h1, h2, h3 {
   font-family: 'Raleway';
 }
 
+.title h3 {
+  font-family: 'Noto Sans KR', 'Noto Sans';
+  font-weight: normal;
+}
+
 .remark-code, .remark-inline-code {
   font-family: 'PT Mono';
+}
+
+.box, .smallbox {
+  font-family: 'Raleway';
+}
+
+.flowchartjs * {
+  font-family: 'Noto Sans KR', 'Noto Sans';
+  font-weight: 300;
 }
 
 
@@ -86,6 +100,8 @@ h1 { margin: 36px 0px -8px 0px; }
 }
 
 .center { margin: 0 auto; }
+.center1 *:not(h1) { text-align: center; }
+
 .middle * { vertical-align: middle; }
 
 .toptight { margin-top: -15px; }
@@ -293,9 +309,12 @@ a[href^="https://"]:hover {
 
 /* Title Page */
 
-.title { background: #000; }
+.title {
+  background: #000;
+  vertical-align: middle;
+  text-align: center;
+}
 .title h1 { color: #fff; font-size: 2.8em; }
-.title h3 { font-family: 'Noto Sans KR', 'Noto Sans'; font-weight: normal; }
 .title h2 { font-size: 1.6em; margin: 3% 0 0 0;
     display: inline-block; /* http://jsbin.com/jilicawoni/edit?html,css,output */
     background-image: linear-gradient(180deg, #0cadbb 0%, #43bb97 100%);
@@ -342,7 +361,6 @@ a[href^="https://"]:hover {
   margin-left: auto;
   margin-right: auto;
   display: table; 
-  font-family: 'Raleway';
   font-style: italic;
 }
 
@@ -356,8 +374,25 @@ a[href^="https://"]:hover {
   margin-left: auto;
   margin-right: auto;
   display: table; 
-  font-family: 'Raleway';
   font-style: italic;
+}
+
+
+/* External Sources */
+
+.chartjs canvas { width: 100%; }
+.chartjs .code { display: none; }
+
+.flowchartjs { margin-top: 10px; }
+.flowchartjs .code { display: none; }
+
+.skt_white {
+  background-image: url('https://taehoonlee.github.io/assets/SK_Telecom_Logo_White.svg');
+  display: inline-block;
+  width: 4.67em;
+  height: 1.84em;
+  background-size: 4.67em 1.84em;
+  margin-top: -27px;
 }
 
 
