@@ -414,7 +414,7 @@ a[href^="https://"]:hover {
   }
   .title h2 {
     background: none;
-    -webkit-text-fill-color: #43bb97;
-    text-fill-color: #43bb97;
+    -webkit-text-fill-color: #28b4a9;
+    text-fill-color: #28b4a9;
   }
 }
