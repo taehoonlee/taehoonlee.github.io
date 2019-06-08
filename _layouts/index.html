@@ -22,16 +22,23 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<!--<span class="logo"><img src="images/logo.svg" alt="" /></span>-->
+<h1>
+<div class="hexagon">
+  <div class="hexText">t</div>
+  <div class="hexTop"></div>
+  <div class="hexBottom"></div>
+</div>
+</h1>
 <h1>Taehoon Lee</h1>
 <h2>research scientist</h2>
 <ul class="icons">
-	<li><a href="https://github.com/taehoonlee" class="icon fa-github-alt alt" target="_blank"><span class="label">GitHub</span></a></li>
-	<li><a href="https://scholar.google.co.kr/citations?user=QO6xIi8AAAAJ" class="icon fa-graduation-cap alt" target="_blank"><span class="label">GitHub</span></a></li>
-	<li><a href="https://www.linkedin.com/in/taehoonlee86" class="icon fa-linkedin alt" target="_blank"><span class="label">LinkedIn</span></a></li>
-	<li><a href="https://taehoonlee.me" class="icon fa-list-alt alt" target="_blank"><span class="label">Twitter</span></a></li>
-	<li><a href="mailto:me@taehoonlee.com" class="icon fa-envelope-o alt"><span class="label">Email</span></a></li>
-	<li><a href="https://www.instagram.com/taehoonlee86/" class="icon fa-instagram alt" target="_blank"><span class="label">Instagram</span></a></li>
-	<li><a href="https://www.facebook.com/taehoonlee" class="icon fa-facebook alt" target="_blank"><span class="label">Facebook</span></a></li>
+	<li><a href="mailto:taehoonlee86@sk.com" class="icon fa-envelope-o alt style3"><span class="label">Email</span></a>&nbsp;&nbsp;<a href="mailto:taehoonlee86@sk.com"><span class="text">taehoonlee86 AT sk.com</span></a></li>
+	<li><a href="mailto:me@taehoonlee.com" class="icon fa-envelope-o alt style4"><span class="label">Personal Email</span></a>&nbsp;&nbsp;<a href="mailto:me@taehoonlee.com"><span class="text">me AT taehoonlee.com</span></a></li>
+        <li><a href="https://github.com/taehoonlee" class="icon fa-github-alt alt" target="_blank"><span class="label">GitHub</span></a>&nbsp;&nbsp;<a href="https://github.com/taehoonlee" target="_blank"><span class="text">taehoonlee</span> <span id="mygithubstars" class="text"></span></a></li>
+	<li><a href="https://www.linkedin.com/in/taehoonlee86" class="icon fa-linkedin alt" target="_blank"><span class="label">LinkedIn</span></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/taehoonlee86" target="_blank"><span class="text">taehoonlee86</span></a></li>
+	<li><a href="https://www.facebook.com/taehoonlee" class="icon fa-facebook alt" target="_blank"><span class="label">Facebook</span></a>&nbsp;&nbsp;<a href="https://www.facebook.com/taehoonlee" target="_blank"><span class="text">taehoonlee</span></a></li>
+	<li><a href="https://taehoonlee.me" class="icon fa-list-alt alt" target="_blank"><span class="label">Blog</span></a>&nbsp;&nbsp;<a href="https://taehoonlee.me" target="_blank"><span class="text">blogs</span></a></li>
+	<li><a href="https://scholar.google.co.kr/citations?user=QO6xIi8AAAAJ" class="icon fa-graduation-cap alt" target="_blank"><span class="label">GitHub</span></a>&nbsp;&nbsp;<a href="https://scholar.google.co.kr/citations?user=QO6xIi8AAAAJ" target="_blank"><span class="text">QO6xIi8AAAAJ</span></a></li>
 </ul>
 					</header>
 
@@ -40,6 +47,7 @@
 						<ul>
 							<li><a href="#about" class="active">About</a></li>
 							<li><a href="#publications">Publications</a></li>
+							<li><a href="#opensources">Open Sources</a></li>
 							<li><a href="#projects">Projects</a></li>
 						</ul>
 					</nav>
@@ -112,6 +120,8 @@ CENTROPOLIS, 26 Ujeongguk-ro, Jongno-gu, Seoul, 03161<p>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/github-graph.js"></script>
+			<script src="assets/js/github-stars.js"></script>
+			<script> $("#mygithubstars").html(", " + githubStars("taehoonlee") + " stars"); </script>
 
 	</body>
 </html>
