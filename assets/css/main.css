@@ -3829,8 +3829,37 @@
 
 		}
 
-#github-graph svg { transform:scale(1.25); -webkit-transform:scale(1.25); -moz-transform:scale(1.25); -ms-transform:scale(1.25); -o-transform:scale(1.25); }
-#github-graph { font-size: 0.65em; }
+/* responsive-google-maps reference */
+/* https://www.ostraining.com/blog/coding/responsive-google-maps/ */
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.map-responsive2 {
+    overflow: hidden;
+    padding-bottom: 15%;
+    position: relative;
+    height: 0;
+}
+.map-responsive2 div {
+    left: 1%;
+    top: 7%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#github-graph svg { transform:scale(1.2); -webkit-transform:scale(1.2); -moz-transform:scale(1.2); -ms-transform:scale(1.2); -o-transform:scale(1.2); }
+#github-graph { font-size: 0.7em; }
 
 /* Footer */
 
