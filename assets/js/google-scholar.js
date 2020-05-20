@@ -1,6 +1,6 @@
 (function(exports) {
 	exports.googleScholar = function (repo, callback) {
-		var count = 152;  /* updated on 2020-05-12 */
+		var count = 153;  /* updated on 2020-05-20 */
 		if (typeof(callback) == "function") {
 			callback(count);
 		} else {
